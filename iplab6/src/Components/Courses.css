@@ -1,0 +1,56 @@
+.courses {
+    background-color: #f0f0f0 !important; /* Light gray background for the container */
+    color: #2c3e50 !important; /* Darker text for contrast */
+    padding: 50px !important; /* Increased padding */
+    border-radius: 15px !important; /* More rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important; /* Shadow effect */
+    text-align: center !important; /* Center text */
+    padding-top: 30px !important; /* Reduce padding at the top to move heading up */
+}
+
+.courses h2 {
+    font-size: 36px !important; /* Larger heading */
+    margin-bottom: 20px !important; /* Space below heading, moved up a bit */
+}
+
+.courses .card {
+    background-color: #ffffff !important; /* White background for card */
+    color: #34495e !important; /* Dark blue-gray text for better readability */
+    border-radius: 10px !important; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    padding: 20px !important; /* Extra padding for content */
+    margin: 15px !important; /* Space between cards */
+    min-height: 300px !important; /* Set a minimum height for consistency */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; /* Ensure content is spaced out */
+}
+
+.courses .card-body {
+    font-size: 18px !important; /* Larger text for card content */
+    line-height: 1.6 !important; /* Improved line height */
+    flex-grow: 1; /* Allow body to take available space */
+}
+
+.courses .card-title {
+    font-size: 22px !important; /* Larger title */
+    margin-bottom: 15px !important; /* Space below title */
+}
+
+.courses .card-text {
+    font-size: 16px !important; /* Slightly larger description text */
+}
+
+.courses .card:hover {
+    background-color: #e3f2fd !important; /* Soft light blue background on hover */
+    transform: scale(1.03); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2) !important; /* Increase shadow on hover */
+}
+
+/* Ensure consistent height for all cards on different screen sizes */
+.courses .row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: stretch !important; /* Ensure cards stretch to same height */
+}

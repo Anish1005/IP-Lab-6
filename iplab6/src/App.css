@@ -1,0 +1,136 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger title size */
+}
+
+h2 {
+  font-size: 2rem; /* Slightly smaller than h1 */
+}
+
+h3 {
+  font-size: 1.75rem; /* Title size for sections */
+  margin-top: 20px; /* Space above section titles */
+}
+
+p {
+  color: #555;
+  line-height: 1.6; /* Improved line height for readability */
+  text-align: justify; /* Justify paragraph text */
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-content {
+  padding: 30px;
+  min-height: calc(100vh - 160px); /* Adjust to give space for header and footer */
+}
+
+.row {
+  margin: 0; /* Reset row margin */
+}
+
+ul {
+  padding-left: 0; /* Remove default padding */
+  list-style: none; /* Remove bullet points */
+}
+
+li {
+  margin-bottom: 15px; /* Space between list items */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3498db;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2980b9;
+}
+
+/* Section Styling */
+.section {
+  background-color: #ffffff; /* White background for sections */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside sections */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 30px; /* Space between sections */
+}
+
+/* Ensure text within sections is justified */
+.section p, .section ul, .section li {
+  text-align: justify; /* Justify text content within sections */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #5d768f; /* Match the background color of the header if applicable */
+  color: #ffffff; /* Match text color to header */
+  padding: 20px;
+  text-align: center !important; /* Center-align footer content */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1, h2, h3 {
+    text-align: center; /* Center titles on smaller screens */
+  }
+}
+
+.section ul {
+  padding-left: 20px; /* Indent for better alignment */
+  list-style-position: outside; /* Bullet points aligned outside of the content */
+  list-style-type: disc; /* Use bullet points */
+}
+
+.section li {
+  margin-bottom: 10px; /* Space between list items */
+  font-size: 16px; /* Adjust the font size */
+  color: #2c3e50; /* Darker text color for readability */
+  line-height: 1.6; /* Improve readability */
+  text-align: justify; /* Justify text inside list items */
+}

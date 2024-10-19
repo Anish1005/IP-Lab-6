@@ -1,0 +1,58 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the header stays above other elements */
+    width: 100%;
+}
+
+.navbar {
+    background-color: #343a40 !important; /* Dark background */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important; /* Enhanced shadow effect */
+    transition: background-color 0.3s ease !important; /* Smooth background transition */
+}
+
+.navbar:hover {
+    background-color: #23272b !important; /* Darker on hover */
+}
+
+.navbar-brand {
+    font-size: 36px !important; /* Larger title text */
+    font-weight: bold; /* Bold brand text */
+    color: #ffffff !important; /* White text */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.navbar-nav {
+    display: flex; /* Ensure the nav items are displayed in a row */
+    justify-content: center; /* Center the nav items */
+    margin-top: 5px; /* Space above nav items */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px; /* Space between items */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White link text */
+    font-size: 20px !important; /* Smaller font size for links */
+    transition: color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3498db !important; /* Change color on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.navbar-nav .nav-link.active {
+    border-bottom: 3px solid #3498db !important; /* Underline active link */
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: row; /* Keep links horizontal on small screens */
+        margin-top: 0; /* Remove margin on small screens */
+    }
+    .navbar-nav .nav-item {
+        margin: 0 10px; /* Space between links */
+    }
+}

@@ -1,0 +1,36 @@
+.about {
+    background: linear-gradient(135deg, #ecf0f1, #2990b9) !important; /* Gradient background */
+    color: #ffffff !important; /* White text */
+    padding: 50px !important; /* Increased padding */
+    border-radius: 15px !important; /* More rounded corners */
+    box-shadow: 0 4px 12px rgba(238, 91, 91, 0.3) !important; /* Shadow effect */
+    text-align: center !important; /* Center text */
+}
+
+.about h2 {
+    font-size: 36px !important; /* Larger heading */
+    margin-bottom: 20px !important; /* Space below heading */
+}
+
+.about p {
+    font-size: 20px !important; /* Larger paragraph text */
+    line-height: 1.8 !important; /* Improved line height */
+    margin: 15px 0 !important; /* Space between paragraphs */
+}
+
+.about img {
+    max-width: 80% !important; /* Responsive image */
+    border-radius: 10px !important; /* Rounded corners for images */
+    margin-top: 20px !important; /* Space above image */
+}
+
+/* Updated color scheme for cards */
+.about .about-card {
+    background-color: #f0f7f9 !important; /* Light pastel blue for a calm, appealing look */
+    padding: 20px;
+    border-radius: 10px !important; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow for cards */
+    margin: 20px 0; /* Space between cards */
+    color: #2c3e50 !important; /* Darker text for better readability */
+    
+}

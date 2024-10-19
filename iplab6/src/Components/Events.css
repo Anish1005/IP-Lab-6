@@ -1,0 +1,41 @@
+.events {
+    background: linear-gradient(135deg, #3a5b9e, #a139a1) !important; /* Softer gray gradient background */
+    color: #ffffff !important; /* White text */
+    padding: 50px !important; /* Increased padding */
+    border-radius: 15px !important; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important; /* Shadow effect */
+    text-align: center !important; /* Center text */
+    flex-grow: 1; /* Allow the event section to take remaining space */
+    min-height: 400px; /* Ensure sufficient height for all events */
+}
+
+.events h2 {
+    font-size: 36px !important; /* Larger heading */
+    margin-bottom: 30px !important; /* Space below heading */
+    color: black;
+}
+
+.events .list-group {
+    padding: 0 !important; /* Remove padding */
+}
+
+.events .list-group-item {
+    background-color: #ad5b75 !important; /* Softer blue-gray for items */
+    color: #ffffff !important; /* White text */
+    margin-bottom: 15px !important; /* Even spacing between items */
+    padding: 20px !important; /* Padding for items */
+    border-radius: 10px !important; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.events .list-group-item:hover {
+    background-color: #bd000d !important; /* Change background on hover */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.events p {
+    font-size: 20px !important; /* Larger paragraph text */
+    margin-top: 20px !important; /* Space above paragraph */
+    color: black;
+}
